@@ -1,4 +1,1 @@
 - react query
-- mudar tela branco
-- botao submit
-- mais dados no forms
