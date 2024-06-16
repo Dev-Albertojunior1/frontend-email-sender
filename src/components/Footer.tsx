@@ -7,6 +7,7 @@ const Footer = () => {
     <Box bg="black" color="white" py={6} borderTop="1px" borderColor="white">
       <VStack spacing={10}>
         <Flex
+        
           align="center"
           justify="center"
           direction={{ base: 'column', sm: 'row' }}
