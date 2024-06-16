@@ -1,13 +1,13 @@
-import React from 'react';
+
 import { Box, Flex, Link, Text, Stack, Icon, VStack } from '@chakra-ui/react';
-import { FaInstagram, FaDiscord,FaTelegram } from 'react-icons/fa';
+import { FaInstagram,FaTelegram } from 'react-icons/fa';
 
 const Footer = () => {
   return (
     <Box bg="black" color="white" py={6} borderTop="1px" borderColor="white">
       <VStack spacing={10}>
         <Flex
-        
+
           align="center"
           justify="center"
           direction={{ base: 'column', sm: 'row' }}

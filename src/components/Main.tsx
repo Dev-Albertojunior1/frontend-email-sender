@@ -1,4 +1,4 @@
-import React from 'react';
+ 
 import './Main.css'
 import { Flex, Text, Image, Box } from '@chakra-ui/react';
 
