@@ -1,4 +1,4 @@
-import React from 'react';
+
 import {
   Box,
   Flex,
@@ -11,20 +11,20 @@ import {
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 
-const NavLink = ({ children }: { children: React.ReactNode }) => (
-  <Link
-    px={2}
-    py={1}
-    rounded={'md'}
-    _hover={{
-      textDecoration: 'none',
-      bg: 'gray.700',
-    }}
-    href={'#'}
-    color={'white'}>
-    {children}
-  </Link>
-);
+// const NavLink = ({ children }: { children: React.ReactNode }) => (
+//   <Link
+//     px={2}
+//     py={1}
+//     rounded={'md'}
+//     _hover={{
+//       textDecoration: 'none',
+//       bg: 'gray.700',
+//     }}
+//     href={'#'}
+//     color={'white'}>
+//     {children}
+//   </Link>
+// );
 
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
